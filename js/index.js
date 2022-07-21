@@ -98,12 +98,12 @@ function cartInit() {
     document.querySelector(".shop-cart-itens").appendChild(noItens)
     let noItensName = document.createElement("h3")
     noItensName.className = "noitens-name"
-    let noItensNameAdd = document.createTextNode("Carrinho varzea")
+    let noItensNameAdd = document.createTextNode("Carrinho vazio")
     document.querySelector(".no-itens").appendChild(noItensName)
     document.querySelector(".noitens-name").appendChild(noItensNameAdd)
     let noItensSub = document.createElement("p")
     noItensSub.className = "noitens-sub"
-    let noItensSubAdd = document.createTextNode("varzea paulista")
+    let noItensSubAdd = document.createTextNode("Adicione algo")
     document.querySelector(".no-itens").appendChild(noItensSub)
     document.querySelector(".noitens-sub").appendChild(noItensSubAdd)
     let carrinho = document.querySelector(".shop-cart")
